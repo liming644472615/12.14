@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width:100%;
+    height:100%;
+    background:#F4F4F4;
+}
+.header{
+    width:100%;
+    height:1.11rem;
+    font-size: 0.45rem;
+    text-align: center;
+    line-height: 1.11rem;
+    background:#fff;
+}
+.return{
+    float: left;
+    width:0.94rem;
+    height:100%;
+    margin-left:0.35rem;
+    font-size:0.5rem;
+    line-height: 1.11rem;
+    text-align: center;
+    cursor:pointer;
+}
+.index{
+    width:1.2rem;
+    height:100%;
+    float:right;
+    margin-right:0.35rem;
+}
+.index a{
+    color:#000;
+}
+.con{
+    width:100%;
+    height:1.88rem;
+    padding-top:0.96rem;
+}
+.con p{
+    width:100%;
+    height:0.4rem;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.4rem;
+}
+.con a{
+    font-size: 0.4rem;
+    display: block;
+    width:1.78rem;
+    height:0.56rem;
+    line-height: 0.56rem;
+    text-align: center;
+    background:#FF6666;
+    color:#fff;
+    margin: 0.2rem auto 0;
+}
+.foot{
+    width: 7.5rem;
+    height: 1.1rem;
+    display:flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom:0;
+    left:0;
+    z-index: 5;
+    background: #fff;
+}
+.foot1{
+    width: 1.5rem;
+    height: 1rem;
+}
+.foot1 img{
+    width: 0.4rem;
+    height: 0.4rem;
+    display:block;
+    margin:0.2rem auto 0.1rem;
+}
+.foot1 p{
+    display: block;
+    font-size: 0.25rem;
+    text-align: center;
+}
+.foot1 a{
+    display:block;
+    width:100%;
+    height:100%;
+    color:#FF3366;
+}
+.foot2 a{
+    color:#A5A5A5;
+}
